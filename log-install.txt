@@ -1,0 +1,132 @@
+=================================-Autoscript Premium-===========================
+
+--------------------------------------------------------------------------------
+
+   >>> Service & Port
+   - OpenSSH                 : 22
+   - OpenVPN                 : TCP 1194, UDP 2200, SSL 442, OHP 8087
+   - Stunnel4                : 443, 777
+   - Dropbear                : 109, 143
+   - Squid Proxy             : 3128, 8080 (limit to IP Server)
+   - Badvpn                  : 7100, 7200, 7300
+   - Nginx                   : 81
+   - Wireguard               : 7070
+   - Shadowsocks-R           : 1443-1543
+   - SS-OBFS TLS             : 2443-2543
+   - SS-OBFS HTTP            : 3443-3543
+   - V2RAY Vmess TLS         : 8443
+   - V2RAY Vmess None TLS    : 80
+   - V2RAY Vless TLS         : 2083
+   - V2RAY Vless None TLS    : 8880
+   - XRAY DIRECT             : 6769
+   - XRAY SPLICE             : 6769
+   - Trojan                  : 2087
+   - Grpc Vmess              : 800
+   - Grpc Vless              : 880
+   - Grpc-Tr              : 653
+
+   >>> Server Information & Other Features
+   - Timezone                : Asia/Malaysia (UTC +8)
+   - Fail2Ban                : [ON]
+   - Dflate                  : [ON]
+   - IPtables                : [ON]
+   - Auto-Reboot             : [ON]
+   - IPv6                    : [OFF]
+   - Autoreboot On 05.00 UTC +8
+   - Autobackup Data
+   - Restore Data
+   - Auto Delete Expired Account
+   - Full Orders For Various Services
+   - White Label
+   - Installation Log --> /root/log-install.txt
+
+   - DEV TELEGRAM            : @SandakanVPNTrickster
+------------------Script Created By SQUIDVPN---------------------
+=================================-Autoscript Premium-===========================
+
+--------------------------------------------------------------------------------
+
+   >>> Service & Port
+   - OpenSSH                 : 22
+   - OpenVPN                 : TCP 1194, UDP 2200, SSL 442, OHP 8087
+   - Stunnel4                : 443, 777
+   - Dropbear                : 109, 143
+   - Squid Proxy             : 3128, 8080 (limit to IP Server)
+   - Badvpn                  : 7100, 7200, 7300
+   - Nginx                   : 81
+   - Wireguard               : 7070
+   - Shadowsocks-R           : 1443-1543
+   - SS-OBFS TLS             : 2443-2543
+   - SS-OBFS HTTP            : 3443-3543
+   - V2RAY Vmess TLS         : 8443
+   - V2RAY Vmess None TLS    : 80
+   - V2RAY Vless TLS         : 2083
+   - V2RAY Vless None TLS    : 8880
+   - XRAY DIRECT             : 6769
+   - XRAY SPLICE             : 6769
+   - Trojan                  : 2087
+   - Grpc Vmess              : 800
+   - Grpc Vless              : 880
+   - Grpc-Tr              : 653
+
+   >>> Server Information & Other Features
+   - Timezone                : Asia/Malaysia (UTC +8)
+   - Fail2Ban                : [ON]
+   - Dflate                  : [ON]
+   - IPtables                : [ON]
+   - Auto-Reboot             : [ON]
+   - IPv6                    : [OFF]
+   - Autoreboot On 05.00 UTC +8
+   - Autobackup Data
+   - Restore Data
+   - Auto Delete Expired Account
+   - Full Orders For Various Services
+   - White Label
+   - Installation Log --> /root/log-install.txt
+
+   - DEV TELEGRAM            : @SandakanVPNTrickster
+------------------Script Created By SQUIDVPN---------------------
+=================================-Autoscript Premium-===========================
+
+--------------------------------------------------------------------------------
+
+   >>> Service & Port
+   - OpenSSH                 : 22
+   - OpenVPN                 : TCP 1194, UDP 2200, SSL 442, OHP 8087
+   - Stunnel4                : 443, 777
+   - Dropbear                : 109, 143
+   - Squid Proxy             : 3128, 8080 (limit to IP Server)
+   - Badvpn                  : 7100, 7200, 7300
+   - Nginx                   : 81
+   - Wireguard               : 7070
+   - Shadowsocks-R           : 1443-1543
+   - SS-OBFS TLS             : 2443-2543
+   - SS-OBFS HTTP            : 3443-3543
+   - V2RAY Vmess TLS         : 8443
+   - V2RAY Vmess None TLS    : 80
+   - V2RAY Vless TLS         : 2083
+   - V2RAY Vless None TLS    : 8880
+   - XRAY DIRECT             : 6769
+   - XRAY SPLICE             : 6769
+   - Trojan                  : 2087
+   - Grpc Vmess              : 800
+   - Grpc Vless              : 880
+   - Grpc-Tr              : 653
+
+   >>> Server Information & Other Features
+   - Timezone                : Asia/Malaysia (UTC +8)
+   - Fail2Ban                : [ON]
+   - Dflate                  : [ON]
+   - IPtables                : [ON]
+   - Auto-Reboot             : [ON]
+   - IPv6                    : [OFF]
+   - Autoreboot On 05.00 UTC +8
+   - Autobackup Data
+   - Restore Data
+   - Auto Delete Expired Account
+   - Full Orders For Various Services
+   - White Label
+   - Installation Log --> /root/log-install.txt
+
+   - DEV TELEGRAM            : @SandakanVPNTrickster
+------------------Script Created By SQUIDVPN---------------------
