@@ -125,10 +125,10 @@ echo -e "$green (•4) $NC PANEL TROJAN                $green (10) $NC CHECK USA
 echo -e "$green (•5) $NC PANEL SS & SSR              $green (11) $NC REBOOT VPS "
 echo -e "$green (•6) $NC PANEL GRPC                  $green (12) $NC CHECK RUNNING SC "
 echo -e "${green}════════════════════════════════════════════════════════════${NC}"
-echo -e "$cyan Traffic        Today      Yesterday     Month"$NC
-echo -e "$cyan Download       \033[0;36m $dtoday    $dyest       $dmon"$NC
-echo -e "$cyan Upload       \033[0;36m $utoday    $uyest       $umon"$NC
-echo -e "$cyan Total        $ttoday    $tyest        $tmon"$NC
+echo -e "$cyan Traffic        Today      Yesterday     Month"
+echo -e "$cyan Download   $NC $dtoday   $NC $dyest      $NC $dmon"
+echo -e "$cyan Upload     $NC $utoday   $NC $uyest      $NC $umon"
+echo -e "$cyan Total           $ttoday    $tyest        $tmon"
 echo -e "${green}════════════════════════════════════════════════════════════${NC}"
 echo -e "                  Premium VPS by @SandakanVPN"
 echo -e "${green}════════════════════════════════════════════════════════════${NC}"
