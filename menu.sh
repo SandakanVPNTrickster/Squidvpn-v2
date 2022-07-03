@@ -128,7 +128,7 @@ echo -e "${green}═════════════════════
 echo -e "\e[36m Traffic\e[0m       \e[36mToday      Yesterday     Month"
 echo -e "\e[36m Download\e[0m      $dtoday      $dyest       $dmon\e[0m"
 echo -e "\e[36m Upload\e[0m        $utoday       $uyest       $umon\e[0m"
-echo -e "\e[36m Total\e[0m       \033[0;36m$ttoday    $tyest       $tmon\e[0m"
+echo -e "\e[36m Total\e[0m          \033[0;36m$ttoday    $tyest       $tmon\e[0m"
 echo -e "${green}════════════════════════════════════════════════════════════${NC}"
 echo -e "                  Premium VPS by @SandakanVPN"
 echo -e "${green}════════════════════════════════════════════════════════════${NC}"
