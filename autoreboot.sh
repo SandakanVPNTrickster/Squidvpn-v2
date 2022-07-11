@@ -188,9 +188,9 @@ fi
 clear
 
 # Echo Shell
-echo -e "${BLUE}========================================================= ${NC}" | lolcat
+echo -e "${BLUE}========================================================= ${NC}"
 echo -e "                     \e[0;33mAuto Reboot Server\e[0m"
-echo -e "${BLUE}========================================================= ${NC}" | lolcat
+echo -e "${BLUE}========================================================= ${NC}"
 echo -e "\e[0;36mSTATUS :\e[0m   $sts"
 echo -e "\e[0;34m-------\e[0m"
 echo -e ""
@@ -207,7 +207,7 @@ echo -e "     \e[0;36m[10]\e[0m Turn off Auto-Reboot Server"
 echo -e "     \e[0;36m[11]\e[0m View reboot log"
 echo -e "     \e[0;36m[12]\e[0m Remove reboot log"
 echo -e ""
-echo -e "${BLUE}========================================================= ${NC}" | lolcat
+echo -e "${BLUE}========================================================= ${NC}"
 echo -e ""
 echo -e  "\e[0;33mPress CTRL+C to Return/Exit\e[0m"
 read -rp "Please Enter The Correct Number : " -e num
