@@ -1,6 +1,6 @@
-# AUTOSCRIPT VPN BY SQUIDVPN : VERSION 2.0
+# AUTOSCRIPT VPN BY SQUIDVPN : VERSION 2.7
 
- <h2 align="center">AutoScript Install VPN By SQUIDVPN <img src="https://img.shields.io/badge/Version-1-blue.svg"></h2>
+ <h2 align="center">AutoScript Install VPN By SQUIDVPN <img src="https://img.shields.io/badge/Version-2.7-blue.svg"></h2>
 
 
 <h2 align="center"> Supported Linux Distribution</h2>
