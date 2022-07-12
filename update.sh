@@ -72,7 +72,7 @@ wget -O port-grpc "https://raw.githubusercontent.com/SandakanVPNTrickster/Squidv
 wget -O renewgrpc "https://raw.githubusercontent.com/SandakanVPNTrickster/Squidvpn-v2/main/renewgrpc.sh"
 wget -O renewtrgrpc "https://raw.githubusercontent.com/SandakanVPNTrickster/Squidvpn-v2/main/renewtrgrpc.sh"
 wget -O server-info "https://raw.githubusercontent.com/SandakanVPNTrickster/Squidvpn-v2/main/server-info.sh"
-wget -O server-info "https://raw.githubusercontent.com/SandakanVPNTrickster/Squidvpn-v2/main/limitspeed.sh"
+wget -O limitspeed "https://raw.githubusercontent.com/SandakanVPNTrickster/Squidvpn-v2/main/limitspeed.sh"
 chmod +x add-host
 chmod +x system-menu
 chmod +x autoreboot
