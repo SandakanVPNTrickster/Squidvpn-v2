@@ -13,7 +13,7 @@ vmess_req() {
       "id": "$(cat /proc/sys/kernel/random/uuid)",
       "aid": "0",
       "net": "ws",
-      "path": "wss://who.int${path}",
+      "path": "wss://who.int/v2ray",
       "type": "none",
       "host": "$(cat /etc/v2ray/domain)",
       "sni": "who.int",
@@ -29,12 +29,9 @@ EOF
 
 vless_req() {
     user=$(tr </dev/urandom -dc a-zA-Z0-9 | head -c8)
-    read -p "Domain : " $(cat /etc/v2ray/domain)
-    read -p "Uuid   : " $(cat /proc/sys/kernel/random/uuid)
-    read -p "path   : " path
 
     echo ""
-    echo "Config : vless://${uuid}@who.int:443?path=wss://who.int${path}&security=tls&encryption=none&type=ws&host=${domain}&sni=who.int#${user}"
+    echo "Config : vless://$(cat /proc/sys/kernel/random/uuid)@who.int:443?path=wss://who.int/v2ray&security=tls&encryption=none&type=ws&host=$(cat /etc/v2ray/domain)&sni=who.int#${user}"
 }
 
 protocol_req() {
