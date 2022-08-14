@@ -24,7 +24,7 @@ vmess_req() {
 }
 EOF
 
-    vmesslink1="vmess://$(base64 -w 0 /root/$user-tls.json)"
+    vmesslink1="vmess://$(base64 -w 0 /etc/v2ray/$user-tls.json)"
     echo ""
     echo "Config : $vmesslink1"
     echo ""
