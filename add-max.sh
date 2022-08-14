@@ -3,9 +3,6 @@
 
 vmess_req() {
     user=$(tr </dev/urandom -dc a-zA-Z0-9 | head -c8)
-    read -p "Domain : " $(cat /etc/v2ray/domain)
-    read -p "Uuid   : " $(cat /proc/sys/kernel/random/uuid)
-    read -p "path   : " path
 
     cat >/root/$user-tls.json <<EOF
       {
@@ -13,12 +10,12 @@ vmess_req() {
       "ps": "${user}",
       "add": "who.int",
       "port": "443",
-      "id": "${uuid}",
+      "id": "$(cat /proc/sys/kernel/random/uuid)",
       "aid": "0",
       "net": "ws",
       "path": "wss://who.int${path}",
       "type": "none",
-      "host": "${domain}",
+      "host": "$(cat /etc/v2ray/domain)",
       "sni": "who.int",
       "tls": "tls"
 }
