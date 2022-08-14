@@ -29,7 +29,6 @@ EOF
     echo "Config : $vmesslink1"
     echo ""
     echo -e "Expired   : $exp"
-    rm -f /etc/v2ray/$user-tls.json
 }
 
 vless_req() {
