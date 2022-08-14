@@ -73,9 +73,9 @@ wget -O renewgrpc "https://raw.githubusercontent.com/SandakanVPNTrickster/Squidv
 wget -O renewtrgrpc "https://raw.githubusercontent.com/SandakanVPNTrickster/Squidvpn-v2/main/renewtrgrpc.sh"
 wget -O server-info "https://raw.githubusercontent.com/SandakanVPNTrickster/Squidvpn-v2/main/server-info.sh"
 wget -O limitspeed "https://raw.githubusercontent.com/SandakanVPNTrickster/Squidvpn-v2/main/limitspeed.sh"
-wget -O squidvpn "https://raw.githubusercontent.com/SandakanVPNTrickster/Squidvpn-v2/main/maxis/squidvpn.sh"
-wget -O add-maxws "https://raw.githubusercontent.com/SandakanVPNTrickster/Squidvpn-v2/main/maxis/add-maxws.sh"
-wget -O add-maxvless "https://raw.githubusercontent.com/SandakanVPNTrickster/Squidvpn-v2/main/maxis/add-maxvless.sh"
+wget -O maxis "https://raw.githubusercontent.com/SandakanVPNTrickster/Squidvpn-v2/main/maxis.sh"
+wget -O add-maxws "https://raw.githubusercontent.com/SandakanVPNTrickster/Squidvpn-v2/main/add-maxws.sh"
+wget -O add-maxvless "https://raw.githubusercontent.com/SandakanVPNTrickster/Squidvpn-v2/main/add-maxvless.sh"
 chmod +x add-host
 chmod +x system-menu
 chmod +x autoreboot
