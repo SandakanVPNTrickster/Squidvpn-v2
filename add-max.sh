@@ -6,7 +6,7 @@ vmess_req() {
     read -p "Expired (days): " masaaktif
     exp=`date -d "$masaaktif days" +"%Y-%m-%d"`
     sed -i '/#tls$/a\### '"$user $exp"'\
-},{"id": "'""$uuid""'","alterId": '"0"',"email": "'""$user""'"' /etc/v2ray/config.json
+},{"id": "'""$uuid""'","alterId": '"0"',"email": "'""$user""'"' /root/config.json
     cat >/root/$user-tls.json <<EOF
       {
       "v": "0",
