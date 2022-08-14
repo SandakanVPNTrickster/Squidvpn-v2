@@ -95,7 +95,7 @@ hariini=`date -d "0 days" +"%d-%m-%Y"`
 exp=`date -d "$masaaktif days" +"%Y-%m-%d"`
 sed -i '/#tls$/a\### '"$user $exp"'\
 },{"id": "'""$uuid""'","email": "'""$user""'"' /etc/v2ray/vless.json
-vlesslink1="vless://${uuid}@${domain}@who.int:$tls?path=wss://who.int/v2ray&security=tls&encryption=none&type=ws&sni=who.int#${user}"
+vlesslink1="vless://${uuid}@who.int:443?path=wss://who.int${path}&security=tls&encryption=none&type=ws&host=${domain}&sni=who.int#${user}"
 systemctl restart v2ray@vless
 clear
 MYIP=$(curl -sS ipv4.icanhazip.com)

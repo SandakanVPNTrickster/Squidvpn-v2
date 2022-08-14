@@ -108,7 +108,7 @@ cat>/etc/v2ray/$user-tls.json<<EOF
       "path": "wss://who.int/v2ray",
       "type": "none",
       "host": "${domain}",
-      "sni": "who.int"
+      "sni": "who.int",
       "tls": "tls"
 }
 EOF
