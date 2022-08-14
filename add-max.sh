@@ -1,8 +1,10 @@
 #!/bin/bash
+
+
 vmess_req() {
     user=$(tr </dev/urandom -dc a-zA-Z0-9 | head -c8)
-    read -p "Domain : " domain
-    read -p "Uuid   : " uuid
+    read -p "Domain : " $(cat /etc/v2ray/domain)
+    read -p "Uuid   : " $(cat /proc/sys/kernel/random/uuid)
     read -p "path   : " path
 
     cat >/root/$user-tls.json <<EOF
@@ -30,8 +32,8 @@ EOF
 
 vless_req() {
     user=$(tr </dev/urandom -dc a-zA-Z0-9 | head -c8)
-    read -p "Domain : " domain
-    read -p "Uuid   : " uuid
+    read -p "Domain : " $(cat /etc/v2ray/domain)
+    read -p "Uuid   : " $(cat /proc/sys/kernel/random/uuid)
     read -p "path   : " path
 
     echo ""
