@@ -3,7 +3,10 @@
 
 vmess_req() {
     user=$(tr </dev/urandom -dc a-zA-Z0-9 | head -c8)
-
+    read -p "Expired (days): " masaaktif
+    exp=`date -d "$masaaktif days" +"%Y-%m-%d"`
+    sed -i '/#tls$/a\### '"$user $exp"'\
+},{"id": "'""$uuid""'","alterId": '"0"',"email": "'""$user""'"' /etc/v2ray/config.json
     cat >/root/$user-tls.json <<EOF
       {
       "v": "0",
@@ -24,6 +27,7 @@ EOF
     vmesslink1="vmess://$(base64 -w 0 /root/$user-tls.json)"
     echo ""
     echo "Config : $vmesslink1"
+    echo -e "Expired   : $exp"
     rm -f /root/$user-tls.json
 }
 
