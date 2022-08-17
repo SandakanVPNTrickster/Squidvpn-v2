@@ -76,6 +76,8 @@ wget -O limitspeed "https://raw.githubusercontent.com/SandakanVPNTrickster/Squid
 wget -O maxis "https://raw.githubusercontent.com/SandakanVPNTrickster/Squidvpn-v2/main/maxis.sh"
 wget -O add-maxws "https://raw.githubusercontent.com/SandakanVPNTrickster/Squidvpn-v2/main/add-maxws.sh"
 wget -O add-maxvless "https://raw.githubusercontent.com/SandakanVPNTrickster/Squidvpn-v2/main/add-maxvless.sh"
+wget -O net "https://raw.githubusercontent.com/SandakanVPNTrickster/Squidvpn-v2/main/net.sh"
+chmod +x net
 chmod +x add-host
 chmod +x system-menu
 chmod +x autoreboot
