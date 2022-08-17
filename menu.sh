@@ -125,7 +125,7 @@ echo -e "$green (•4) $NC PANEL TROJAN                $Yellow (10) $NC CHECK US
 echo -e "$Yellow (•5) $NC PANEL SS & SSR              $green (11) $NC REBOOT VPS "
 echo -e "$green (•6) $NC PANEL GRPC                  $Yellow (12) $NC CHECK RUNNING SC "
 echo -e ""
-echo -e "•00• GEO LOCATION DNS SETUP
+echo -e "•00• GEO LOCATION DNS SETUP"
 echo -e "${green}════════════════════════════════════════════════════════════${NC}"
 echo -e "\e[36m Traffic        Today     Yesterday     Month"
 echo -e "\e[36m Download    $dtoday     $dyest       $dmon"
